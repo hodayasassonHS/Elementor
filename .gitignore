@@ -1,0 +1,35 @@
+# React app
+/node_modules
+/build
+/dist
+
+# Flask app
+*.pyc
+app/database.db
+app/build
+.cache
+*.psd
+*.pyo
+env/
+env__/
+.vscode/symbols.json
+
+# Testing
+/coverage
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.cache
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+/.idea
+/.vscode
+*.swp
+*.swo
